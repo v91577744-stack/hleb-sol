@@ -15,7 +15,7 @@ $shop_url = function_exists('wc_get_page_permalink') ? wc_get_page_permalink('sh
       <p>«Хлеб Соль» готовит блюда по старинным русским рецептам. Мы берём свежие продукты, натуральное сливочное масло и настоящую русскую печь, а значит, вкус получается домашним.</p>
       <p>Хлеб и соль издавна встречали дорогих гостей. Мы хотим, чтобы каждый наш покупатель чувствовал себя именно так.</p>
     </div>
-    <div class="about-img">🍞</div>
+    <div class="about-img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/about.jpg" alt="Хлеб Соль" style="width:100%;border-radius:10px;display:block"></div>
   </div>
 </section>
 
